@@ -1,0 +1,49 @@
+.filter-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-name {
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+
+.category-input {
+  padding: 1rem;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+.title-hint {
+  text-transform: uppercase !important;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.category-input:focus-visible,
+.book-name:focus-visible {
+  outline: 2px solid #0290ff;
+  outline-style: groove;
+}
+
+.btn-book {
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 0 0.5rem;
+}
+
+.indic-sect {
+  text-transform: uppercase;
+  margin: 1rem;
+}

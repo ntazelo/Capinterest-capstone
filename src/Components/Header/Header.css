@@ -1,0 +1,40 @@
+.navigation-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.back-link-cont {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.back-link-cont > *:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.back-link-cont:active {
+  color: #000;
+}
+
+.on-page-hint {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.icons-list-wrapper {
+  list-style: none;
+  display: flex;
+}
+
+.icons-list-wrapper > *:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.icon {
+  cursor: pointer;
+}

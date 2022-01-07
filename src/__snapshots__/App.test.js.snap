@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the app testing HomePage UI 1`] = `
+"<div>
+  <header class=\\"navigation-cont\\"><a class=\\"back-link-cont\\" href=\\"/\\"><i class=\\"fas fa-chevron-left\\"></i><span class=\\"link-hint\\">Menu</span></a><span class=\\"on-page-hint\\">Category</span>
+    <nav class=\\"icons-cont\\">
+      <ul class=\\"icons-list-wrapper\\">
+        <li class=\\"icon\\"><i class=\\"fas fa-microphone\\"></i></li>
+        <li class=\\"icon\\"><i class=\\"fas fa-cog\\"></i></li>
+      </ul>
+    </nav>
+  </header>
+  <section class=\\"intro-cont\\">
+    <div class=\\"img-gal\\"></div>
+    <div class=\\"intro-details\\">
+      <div class=\\"content-wrapper\\">
+        <h1 class=\\"title-cont\\">Capinterest</h1>
+        <p class=\\"category-count\\">6 Category</p>
+      </div>
+    </div>
+  </section>
+  <section class=\\"filter-cont\\">
+    <p class=\\"indic-sect\\">filter by category</p>
+    <form class=\\"form-control\\"><select name=\\"category\\" class=\\"category-input\\" required=\\"\\">
+        <option value=\\"category\\">Category</option>
+        <option value=\\"buildings\\">buildings</option>
+        <option value=\\"computer\\">computer</option>
+        <option value=\\"music\\">music</option>
+        <option value=\\"food\\">food</option>
+        <option value=\\"animals\\">animals</option>
+        <option value=\\"backgrounds\\">backgrounds</option>
+      </select></form>
+  </section>
+  <section class=\\"categories-cont\\"></section>
+</div>"
+`;
